@@ -1,0 +1,29 @@
+Allow Others to Find Me: Enabled
+Private Account: Enabled
+Personalized Ads: Disabled
+Ads Based on Data Received from Partners: Off
+Ads From Third-party Ad Networks: <no value>
+Who Can Post Comments: Everyone
+Who Can Duet With Me: Off
+Who Can Send Me Message: Default
+Who Can View Videos I Liked: Myself
+Who Can Stitch with your videos: Off
+Allow DownLoad: Default
+Filter Comments: Enabled
+
+Push Notification
+New Fans: Off
+New Likes on My Video: Off
+New Comments on My Video: Off
+Desktop notification: Default
+
+Language
+App Language: 日本語
+Web Language: N/A
+
+Content Preferences
+Keyword filters for videos in For You feed: []
+Keyword filters for videos in Following feed: []
+Video Languages Preferences: []
+Interests: 
+

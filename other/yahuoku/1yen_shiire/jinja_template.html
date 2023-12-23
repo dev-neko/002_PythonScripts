@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	</head>
+
+	<p>取得時間：{{ other.gettime }}</br>
+		<font color="red">{{ other.limit }}</font> 時間以内</br>
+	</p>
+
+		<h2>カテゴリごとの出品数</h2>
+		カテゴリごとの取得件数が100件を超えていないか確認</br>
+		超えていたら時間減らす？</br>
+		超えている場合は出品数が赤くなる</br>
+		<p><ol>
+		{% for jinja_data_cate in jinja_data_cate %}
+			<li>
+				{% if jinja_data_cate.itemnum >= 100 %}
+					<a href="{{ jinja_data_cate.cate_url }}" target = "_blank">
+						{{ jinja_data_cate.cate_name}}
+					</a>
+					 <font color="red">{{ jinja_data_cate.itemnum}} 件</font>
+				{% else %}
+					<a href="{{ jinja_data_cate.cate_url }}" target = "_blank">
+						{{ jinja_data_cate.cate_name}}</a> {{ jinja_data_cate.itemnum}} 件
+				{% endif %}
+			</li>
+		{% endfor %}
+		</ol></p>
+
+		<h2>除外出品者の出品一覧ページ</h2>
+		現在1円、送料無料 の条件を付加しているので、その時点で条件に合うか確認</br>
+		<p>
+			<a href="#" onClick="
+			{% for exc in exc %}
+				window.open('{{ exc.exc_url }}');
+			{% endfor %}
+			return false;">全ての出品者の出品ページを開く</a>
+		</p>
+
+		<h2>オークション一覧</h2>
+		<p><ol>
+		{% for item in jinja_data %}
+			<li>
+				<p><a href="{{ item.prourl }}" target="_blank">
+					<img alt="{{ item.protit }}" src="{{ item.imgurl }}"
+							 loading="lazy" height="150"/></br>
+					<!-- height="75" width="134" -->
+				</a>
+				<a href="{{ item.prourl }}" target = "_blank">{{ item.protit}}</a></br>
+				残り {{ item.limtime }}</p>
+			</li>
+		{% endfor %}
+		</ol></p>
+
+	</body>
+</html>

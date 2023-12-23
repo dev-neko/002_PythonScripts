@@ -1,0 +1,9 @@
+Screen Resolution: 2064x1080
+App Version: 25.1.3
+IDFA: 
+GAID: 662149c9-7c16-4160-8a5a-b24cc4d52cf7
+Android ID: 8068c47d35985f36
+IDFV: 
+Web ID: N/A
+
+

@@ -1,0 +1,1179 @@
+
+	<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+    
+<meta name="keywords" content="捨てメアド,捨てアド,フリーメール,使い捨てアドレス,メルアド作成,登録用アドレス">
+<meta name="description" content="多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@kukusama" />
+<meta property="og:url" content="https://m.kuku.lu/" />
+<meta property="og:title" content="捨てメアド【メルアドぽいぽい】" />
+<meta property="og:description" content="多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。" />
+<meta property="og:image" content="https://m.kuku.lu/img/icon1024_ios.png" />
+    
+  <TITLE>捨てメアド【メルアドぽいぽい】</TITLE>
+
+<meta name="robots" content="index, follow" />
+    
+	
+
+
+    
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META http-equiv="Content-Style-Type" content="text/css">
+
+<LINK rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<script src="js/base64.js"></script>
+
+<link rel="stylesheet" href="css/themes/mailnow.min.css?v=10" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+
+	
+<script src="js/jquery-2.2.1.min.js"></script>
+	
+<script>
+$(document).bind('mobileinit', function(){
+	$.mobile.useFastClick = false;
+	$.mobile.ajaxEnabled = false;
+	$.mobile.pushStateEnabled = false;
+});
+</script>
+<script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+		
+<script src="js/jstz.min.js"></script>
+
+<STYLE type="text/css">
+<!--
+
+.simplebutton{
+	background-color:white !important;
+	border:white !important;
+	color:#0068A7 !important;
+	cursor:pointer;
+}
+
+.titletext{
+  color: #FFCC33;
+  text-shadow: 1px 1px 0 white,
+               1px -1px 0 white,
+               -1px 1px 0 white,
+               -1px -1px 0 white,
+               2px 2px 2px rgba(100,100,100,0.5);
+}
+
+
+.ui-mobile .ui-page-active {
+	overflow: visible;
+	overflow-x: visible;
+}
+
+.ui-controlgroup, fieldset.ui-controlgroup {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-slider-track .ui-btn.ui-slider-handle {
+	border-radius: 15px;
+}
+.ui-slider-track {
+	height: 6px;
+}
+.ui-slider-switch {
+	border-radius: 15px !important;
+}
+	
+BODY{ margin:0px; padding:0px; background-color: white; }
+BODY,TD,INPUT{ font-family:'Meiryo UI',Meiryo,sans-serif; }
+FORM{ padding : 0px; margin : 0px; }
+a:link {text-decoration : none;}
+a:visited {text-decoration : none;}
+a:hover {text-decoration : underline;}
+a:active {text-decoration : none;}
+
+.menubar { 
+	padding-top:5px;
+	padding-left:10px;
+	padding-bottom:5px;
+	padding-right:5px;
+	font-size:130%;
+	border-top:0px solid #666666;
+	border-left:10px solid #666666;
+	color:#666666;
+	font-weight:bold;
+	margin-top:1px; 
+}
+.ui-mini { margin:0px; }
+
+.que{
+	display:none;padding:10px;text-align:left;padding-top:6px;color:gray;
+}
+.que_but{
+	opacity:0.7;width:30px;
+}
+
+.defborder{
+	border-color:rgb(204, 214, 221);
+}
+
+#slide_menu{
+	position:fixed;
+	top: 0px;
+	left: -300px;
+	width: 300px;
+	height: 100%;
+    background: #CCD6DD;
+    z-index: 3;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+#area-master{
+	position: relative;
+	top:0 ;
+	left:0 ;
+	width: 100%;
+}
+
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited{
+	background-color:  !important;
+	border-color: #CCD6DD !important;
+}
+.ui-page-theme-a .ui-btn:hover, html .ui-bar-a .ui-btn:hover, html .ui-body-a .ui-btn:hover, html body .ui-group-theme-a .ui-btn:hover, html head + body .ui-btn.ui-btn-a:hover{
+	background-color: #D7EFFF !important;
+	border-color: #D7EFFF !important;
+}
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+	border-color: #CCD6DD !important;
+}
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+	background-color:  !important;
+	border-color: #CCD6DD !important;
+}
+.ui-link{
+	color:;
+}
+.ui-page-theme-a .ui-btn.ui-btn-active,html .ui-bar-a .ui-btn.ui-btn-active,html .ui-body-a .ui-btn.ui-btn-active,html body .ui-group-theme-a .ui-btn.ui-btn-active,html head + body .ui-btn.ui-btn-a.ui-btn-active,.ui-page-theme-a .ui-checkbox-on:after,html .ui-bar-a .ui-checkbox-on:after,html .ui-body-a .ui-checkbox-on:after,html body .ui-group-theme-a .ui-checkbox-on:after,.ui-btn.ui-checkbox-on.ui-btn-a:after,.ui-page-theme-a .ui-flipswitch-active,html .ui-bar-a .ui-flipswitch-active,html .ui-body-a .ui-flipswitch-active,html body .ui-group-theme-a .ui-flipswitch-active,html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active,.ui-page-theme-a .ui-slider-track .ui-btn-active,html .ui-bar-a .ui-slider-track .ui-btn-active,html .ui-body-a .ui-slider-track .ui-btn-active,html body .ui-group-theme-a .ui-slider-track .ui-btn-active,html body div.ui-slider-track.ui-body-a .ui-btn-active{
+	color: !important;
+}
+.menubar { 
+	border-top-color: !important;
+	border-left-color: !important;
+	color: !important;
+}
+.deffont{
+	color: !important;
+}
+.defborder{
+	border-color: #CCD6DD !important;
+}
+.defbg{
+	background-color:  !important;
+}
+
+.popborder{
+	border-color:  !important;
+}
+.popbg{
+	background-color:  !important;
+}
+
+.detailbox{
+	display: none;
+	padding: 15px;
+	border-color: #CCD6DD !important;
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.force_left{
+	text-align:left !important;
+	margin: 0px;
+}
+.force_right{
+	text-align:right !important;
+	margin: 0px;
+}
+.force_center{
+	text-align:center !important;
+	margin: 0px;
+}
+
+-->
+</STYLE>
+
+<script type="text/javascript">
+function queView(_tar, _but) {
+	_but.style.opacity = "1";
+	setTimeout(function(){_but.style.opacity = "0.7"}, 200);
+	
+	if (!document.getElementById(""+_tar).style.display) {
+		document.getElementById(""+_tar).style.display = "block";
+	} else {
+		document.getElementById(""+_tar).style.display = "";
+	}
+}
+function toggleView(_tar) {
+	if (document.getElementById(""+_tar).style.display == "block") {
+		document.getElementById(""+_tar).style.display = "none";
+	} else {
+		document.getElementById(""+_tar).style.display = "block";
+	}
+}
+
+var cookie = {};
+cookie.get = function(name) {
+    var regexp = new RegExp('; ' + name + '=(.*?);');
+    var match  = ('; ' + document.cookie + ';').match(regexp);
+    return match ? decodeURIComponent(match[1]) : '';
+}
+cookie.set = function(name, value) {
+    var buf = name + '=' + encodeURIComponent(value);
+    document.cookie = buf + '; expires=Mon, 31-Dec-2029 23:59:59 GMT; domain=m.kuku.lu; path=/';
+}
+cookie.localset = function(name, value) {
+    var buf = name + '=' + encodeURIComponent(value);
+    document.cookie = buf + '; expires=Mon, 31-Dec-2029 23:59:59 GMT;';
+}
+
+//window.scrollToNew = window.scrollTo;
+window.scrollTo = function(){return false;};
+
+function CookieQuery(_query) {
+    cookie.set("cookie_next_query", ""+_query);
+}
+
+function parseValue(_str) {
+	var _result = new Array();
+	var _str = _str.split(";");
+	for (var i in _str) {
+		var _epos = _str[i].indexOf("=");
+		if (_epos == -1) continue;
+		
+		var _pre = _str[i].slice(0, _epos);
+		var _suf = _str[i].slice(_epos+1);
+		if (!_pre) continue;
+		
+		_suf = ""+_suf.split("#_S_#").join(";");
+		_suf = ""+_suf.split("#_E_#").join("=");
+		_suf = ""+_suf.split("#_A_#").join("&");
+		
+		_result[_pre] = ""+_suf;
+	}
+	return _result;
+}
+function parseURLParam(_str) {
+	var _result = new Array();
+	var _str = _str.split("&");
+	for (var i in _str) {
+		var _epos = _str[i].indexOf("=");
+		if (_epos == -1) continue;
+		
+		var _pre = _str[i].slice(0, _epos);
+		var _suf = _str[i].slice(_epos+1);
+		if (!_pre) continue;
+		
+		_suf = ""+_suf.split("#_S_#").join(";");
+		_suf = ""+_suf.split("#_E_#").join("=");
+		_suf = ""+_suf.split("#_A_#").join("&");
+		
+		_result[_pre] = ""+_suf;
+	}
+	return _result;
+}
+function safeString(_str) {
+	if (!_str || _str == undefined || _str == null) return "";
+	return _str;
+}
+
+</script>
+
+</HEAD>
+<BODY>
+	
+	<script>
+		function toggleMenu() {
+			if ($(".layer").css("display") == "none") {
+				openMenu();
+			} else {
+				closeMenu();
+			}
+		}
+	    function openMenu(){
+	    	$(".layer").show();
+			$("#area-master").animate({'left' : 300 }, 300);
+			$("#slide_menu").animate({'left' : 0 }, 300);
+		}
+	    function closeMenu(){
+	    	$(".layer").hide();
+			$("#area-master").animate({'left' : 0 }, 300);
+			$("#slide_menu").animate({'left' : -300 }, 300);
+		}
+	</script>
+
+	<div class="layer" onclick="closeMenu();"></div>
+	<nav id="slide_menu" class="defbg">
+		<div style="padding-right:10px;border-right-width:2px;border-right-style:solid;height:100%;" class="defborder">
+		<br>
+		<input type="button" data-icon="bullets" onclick="location.href='addrsort.php';" value="アドレスの並び替え" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="delete" onclick="location.href='addrdelete.php';" value="アドレスの一括削除" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="recycle" onclick="location.href='addrreserve.php';" value="削除済みアドレス" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="edit" onclick="location.href='aliaslist.php';" value="アドレスの別名" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="phone" onclick="location.href='mailformgen.php';" value="メールフォーム" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="alert" onclick="location.href='denylist.php';" value="受信拒否" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<input type="button" data-icon="user" onclick="location.href='addrtransfer.php';" value="アドレスの譲渡" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+		<br>
+		<input type="button" data-icon="user" onclick="location.href='config.php';" value="詳細設定" data-iconpos="right" data-icon="gear" data-shadow="false">
+		<input type="button" data-icon="power" onclick="location.href='index.php?pagemode_login=1&noindex=1';" value="アカウント" data-iconpos="right" data-icon="gear" data-shadow="false">
+		</div>
+	</nav>
+
+	
+	
+
+				
+					
+			<TABLE border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="height:28px;background-color : #ffffff;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #cccccc;">
+			<TBODY>
+			<TR>
+			<TD nowrap>
+
+				<TABLE border="0" cellpadding="0" cellspacing="0" style="font-family:'Meiryo UI',Meiryo,'ＭＳ Ｐゴシック',sans-serif;height:28px;text-align : center;">
+				<TBODY>
+				<TR>
+					
+				<TD style="width:2px;"></TD>
+					
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://live.erinn.biz/?force=1" style="color:#3765ce;">LIVE</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://s.kuku.lu/" style="color:#3765ce;">画像共有</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://v.kuku.lu/" style="color:#3765ce;">動画共有</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://d.kuku.lu/" style="color:#3765ce;">ファイル転送</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://draw.kuku.lu/" style="color:#3765ce;">絵チャ</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;border-top-width : 2px;border-top-style : solid;border-top-color : #eeeeee;">
+					<A href="https://f5.si/" style="color:#3765ce;">DDNS</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="background-color:#eeeeee;font-size : 12px;">
+					<A href="https://m.kuku.lu/" style="color:#bd484b;">捨てメアド</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+								
+				<TD nowrap width="85" onclick="open_header_mabinogi();">
+					<center>
+					<table border="0" cellpadding="0" cellspacing="0">
+					<tr>
+					<td width="12"><img src="img/header_ar.png"></td>
+					<td style="cursor:pointer;font-size:12px;color:gray;">マビノギ</td>
+					</tr>
+					</table>
+					</center>
+				</TD>
+				<TD style="width:2px;"></TD>
+					
+			    </TR>
+				</TBODY>
+				</TABLE>
+				
+				<script>
+				function open_header_mabinogi(){
+					var _tar = document.getElementById("area_header_mabinogi");
+					if (_tar.style.display=="none") {
+						_tar.style.display = "block";
+					} else {
+						_tar.style.display = "none";
+					}
+				}
+				</script>
+						
+			</TD>
+			<TD>&nbsp;</TD>
+			<TD nowrap style="padding-right:5px;text-align : right;font-size : 11px; font-family:'Meiryo UI',Meiryo,'ＭＳ Ｐゴシック',sans-serif;">
+			<span ><A style="color:#666666;" href="javascript:goShortURL_Header();">URL短縮</A></span>
+			 | 
+			<span ><a style="color:#666666;" href="http://magical.kuku.lu/page.contact.php" target="_blank">問い合わせ</a></span>
+			 | 
+			<span><a style="color:#666666;" href="http://status.aquapal.net/" target="_blank">稼働状況</a></span>
+
+			</TD>
+			<TD width="20" nowrap align="center">
+			<a href="https://magical.kuku.lu/?1969"><img src="img/t.gif" border="0"></a>
+			</TD>
+
+			
+			<TD width="20" nowrap align="center" >
+			<a href="http://aquapal.net/"><img src="img/a.gif" border="0"></a>
+			</TD>
+			</TR>
+			</TBODY>
+			</TABLE>
+			
+			<TABLE id="area_header_mabinogi" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="display:none;height:28px;background-color : #ffffff;border-bottom-width : 1px;border-bottom-style : solid;border-bottom-color : #cccccc;">
+			<TBODY>
+			<TR>
+			<TD nowrap>
+
+				<TABLE border="0" cellpadding="0" cellspacing="0" style="font-family:'Meiryo UI',Meiryo,'ＭＳ Ｐゴシック',sans-serif;height:28px;text-align : center;">
+				<TBODY>
+				<TR>
+					
+				<TD style="width:2px;"></TD>
+					
+									<TD nowrap width="85" style="font-size : 12px;">
+					<A href="https://kukulu.erinn.biz/" style="color:#3765ce;">キャラ・放送</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;">
+					<A href="http://rua.erinn.biz/" style="color:#3765ce;">相場調査</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;">
+					<A href="http://weather.erinn.biz/" style="color:#3765ce;">攻略情報</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;">
+					<A href="http://labo.erinn.biz/" style="color:#3765ce;">ツール</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									<TD nowrap width="85" style="font-size : 12px;">
+					<A href="https://magical.kuku.lu/" style="color:#3765ce;">お知らせ</a>
+					</TD>
+					<TD style="width:2px;"></TD>
+									
+			    </TR>
+				</TBODY>
+				</TABLE>
+						
+			</TD>
+			<TD>&nbsp;</TD>
+			</TR>
+			</TBODY>
+			</TABLE>
+				
+			<script>
+				function goShortURL_Header() {
+					window.open("http://kuku.lu/?surl="+encodeURIComponent(location.href),"_blank");
+				}
+			</script>
+			
+				
+	
+<div id="area-master" style="background-color:white;">
+<div style="border-top:5px solid #FFCC33;background-image:url('img/title2_bg.png'); background-repeat:repeat-x;">
+
+<div style="width:90%;margin: auto;">
+
+	<div>
+		<TABLE border="0" width="100%" cellpadding="0" cellspacing="0">
+		<tr>
+
+			<td style="min-width:400px;height:75px;font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;">
+				<div class="titletext" style="font-size:25px;font-weight:bold;">捨てメアド【メルアドぽいぽい】</div>
+				<div class="titletext" style="font-size:12px;font-weight:bold;">多機能フリーメールサービス。メールアドレスは同時にいくつでも保有でき、期限もありません。登録も不要です。</div>
+			</td>
+
+		<td style="text-align:right;min-width:310px;">
+			<a href="https://itunes.apple.com/jp/app/shetemeado/id806157957?mt=8" target="_blank"><img src="img/top_appstore.png" width="150" height="50" border="0"></a>
+			<a href="https://play.google.com/store/apps/details?id=air.kukulive.mailnow" target="_blank"><img src="img/top_googleplay.png" width="150" height="50" border="0"></a>
+		</td>
+		</tr>
+		</table>
+
+
+	</div>
+		
+			<div style="width:100%;">
+			<div style="margin:auto;padding-top:5px;padding-bottom:5px;text-align:center;">
+			
+							
+							
+							
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 捨てメアドR 上部 -->
+			<ins class="adsbygoogle"
+			     style="display:block" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" 
+			     data-ad-client="ca-pub-6235967741013519"
+			     data-ad-slot="5050180737"
+			     data-ad-format="horizontal"
+			     data-full-width-responsive="true"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+				
+			</div>
+		</div>
+	
+
+	<div>
+					
+		<TABLE width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		<td>
+			<TABLE border="0" cellpadding="5" cellspacing="0">
+			<tr>
+								<td style="width:80px;text-align:center;cursor:pointer;" onclick="toggleMenu();" onmouseover="menuMouse(this, true);"  onmouseout="menuMouse(this, false);">
+					<img style="-ms-interpolation-mode: bicubic; filter: alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;" src="img/menu_pc.png" width="60" height="60" border="0"><br>
+					<span class="deffont">設定</span>
+					</td>
+										<td style="width:80px;text-align:center;cursor:pointer;" onclick="location.href='index.php';" onmouseover="menuMouse(this, true);"  onmouseout="menuMouse(this, false);">
+					<img style="-ms-interpolation-mode: bicubic; filter: alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;" src="img/account_pc.png" width="60" height="60" border="0"><br>
+					<span class="deffont">アドレス</span>
+					</td>
+										<td style="width:80px;text-align:center;cursor:pointer;" onclick="location.href='recv.php';" onmouseover="menuMouse(this, true);"  onmouseout="menuMouse(this, false);">
+					<img style="-ms-interpolation-mode: bicubic; filter: alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;" src="img/recv_pc.png" width="60" height="60" border="0"><br>
+					<span class="deffont">受信トレイ</span>
+					</td>
+										<td style="width:80px;text-align:center;cursor:pointer;" onclick="location.href='send.php';" onmouseover="menuMouse(this, true);"  onmouseout="menuMouse(this, false);">
+					<img style="-ms-interpolation-mode: bicubic; filter: alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;" src="img/send_pc.png" width="60" height="60" border="0"><br>
+					<span class="deffont">送信トレイ</span>
+					</td>
+										<td style="width:80px;text-align:center;cursor:pointer;" onclick="location.href='new.php';" onmouseover="menuMouse(this, true);"  onmouseout="menuMouse(this, false);">
+					<img style="-ms-interpolation-mode: bicubic; filter: alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;" src="img/new_pc.png" width="60" height="60" border="0"><br>
+					<span class="deffont">メール作成</span>
+					</td>
+								</tr>
+			</TABLE>
+		</td>
+		<td align="right">
+			<TABLE border="0" cellpadding="10" cellspacing="0">
+			<tr>
+										
+
+			</tr>
+			</TABLE>
+		</td>
+		</tr>
+		</table>
+	</div>
+
+	<script>
+	function configMailPage() {
+		/*
+		if (location.href.indexOf("recv.selectaddr.php") != -1) {
+			location.href = "recv.php";
+		} else if (location.href.indexOf("recv.php") != -1) {
+			location.href = "recv.selectaddr.php";
+		} else if (location.href.indexOf("send.selectaddr.php") != -1) {
+			location.href = "send.php";
+		} else if (location.href.indexOf("send.php") != -1) {
+			location.href = "send.selectaddr.php";
+		}
+		*/
+		
+		toggleFilter();
+		
+		document.getElementById("image_config").style.opacity = "0.5";
+		setTimeout(function(){document.getElementById("image_config").style.opacity = "1";}, 100);
+	}
+
+	function reloadMailPage() {
+		if (location.href.indexOf("recv.selectaddr.php") != -1) {
+			location.href = "recv.php";
+		} else if (location.href.indexOf("recv.php") != -1) {
+			reloadMail();
+		} else if (location.href.indexOf("send.selectaddr.php") != -1) {
+			location.href = "send.php";
+		} else if (location.href.indexOf("send.php") != -1) {
+			reloadMail();
+		}
+		
+		document.getElementById("image_reload").style.opacity = "0.5";
+		setTimeout(function(){document.getElementById("image_reload").style.opacity = "1";}, 100);
+	}
+	
+	function logoutSystem() {
+		if (confirm("ログアウトすると、まったく異なったアカウントとメールアドレスが付与されます。前のアドレスとメールを復元するには、IDとパスワードでログインする必要があります。\n\n・IDとパスワードを控えていない場合、ログアウトすると現在のアドレスとメールは二度と復元できません。\n・共有のスマホを使用している場合は、他人の悪用を防ぐため、必ずログアウトしておいてください。")) {
+			location.href="?action=logout";
+		}
+	}
+
+	function menuMouse(_obj, _flag) {
+		if (!_flag) {
+			_obj.style.backgroundColor="";
+		} else {
+			_obj.style.backgroundColor="#eeeeee";
+		}
+	}
+	</script>
+
+
+
+
+		
+	
+<style>
+.ui-checkbox .ui-btn, .ui-radio .ui-btn{
+	background-color:white;
+	border:white;
+}
+</style>
+
+	<div class="menubar">アドレスの一括削除</div>
+	
+	<div style="padding:10px;">
+		
+
+			<div style="">
+				<a id="link_autodelete" href="javascript:void(0);" data-role="button" class="force_left" data-iconpos="left" data-icon="info" data-shadow="false">自動アドレス削除</a>
+				<div id="link_autodelete_data" class="detailbox">
+
+					<input type="button" value="1週間以上使用していないアドレスを削除" onclick="confirmAutoDelete('o1week', this.value);" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+					<input type="button" value="1ヶ月以上使用していないアドレスを削除" onclick="confirmAutoDelete('o1month', this.value);" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+					<input type="button" value="12時間以内に作成したアドレスを削除" onclick="confirmAutoDelete('b12hour', this.value);" data-iconpos="right" data-icon="arrow-r" data-shadow="false">
+					
+					<br>
+					<div style="color:#999999;">アドレスは削除してもあなた専用のものとして予約され、いつでも「削除済みアドレスの一覧」から復活させることができます。気軽に削除してシンプルに管理しましょう。</div>
+				
+				</div>
+				<script>
+					function confirmAutoDelete(_mode, _message) {
+						openAlertDialog("しばらくお待ちください...", function(){});
+						
+						$.ajax({
+						    url: "addrdelete.php",
+						    type: "POST",
+						    data: "&UID=acaeb992d126c0d555b5a3021295ad8d&action=checkAddressAutoRule&rule="+_mode+"&nopost=1",
+						    timeout: 200000,
+						    cache: false
+						}).done(function(data, status, xhr) {
+							okAlertDialog();
+							
+							if (data.indexOf("OK:") == 0) {
+								var _tmp = data.split("OK:");
+								if (_tmp[1] >= 1) {
+					    			
+							    	openConfirmDialog(
+							    		""+_message+" ("+_tmp[1]+" アドレス): 指定したルールでアドレスを自動削除してもよろしいですか？（メールは削除されません。）", 
+							    		
+							    		function(){
+							    			
+							    			openAlertDialog("しばらくお待ちください...", function(){});
+							    			
+											$.ajax({
+											    url: "addrdelete.php",
+											    type: "POST",
+											    data: "&UID=acaeb992d126c0d555b5a3021295ad8d&action=deleteAddressAutoRule&rule="+_mode+"&nopost=1",
+											    timeout: 20000,
+											    cache: false
+											}).done(function(data, status, xhr) {
+												if (data.indexOf("OK:") == 0) {
+													var _tmp = data.split("OK:");
+													if (_tmp[1] >= 1) {
+														var _cnt = _tmp[1];
+										    			openAlertDialog(''+_cnt+'アドレスを自動削除しました。', function(){});
+										    			location.reload();
+										    		} else {
+										    			openAlertDialog("自動削除ルールに一致するアドレスが存在しませんでした。", function(){});
+										    		}
+										    	}
+											}).fail(function(xhr, status, error) {
+											    openAlertDialog("操作に失敗したか、処理時間が長すぎるためタイムアウトしました。再度開きなおしてください。", function(){});
+											});
+										}, 
+							    	
+								    	function(){
+									    	
+								  	 	}
+								  	 );
+					    			
+					    		} else {
+					    			openAlertDialog("自動削除ルールに一致するアドレスが存在しませんでした。", function(){});
+					    		}
+					    	}
+						}).fail(function(xhr, status, error) {
+							okAlertDialog();
+							
+						    openAlertDialog("操作に失敗しました。インターネット接続が安定している場所で再度お試しください。", function(){});
+						});
+
+					}
+					
+					$('#link_autodelete').on('click', function(){
+					    toggleView('link_autodelete_data');
+					    return false;
+					});
+				</script>
+			</div>
+
+	
+		<form name="form_deleteAddress" method="post" action="/addrdelete.php" onsubmit="return checkSendDeleteAddress();">
+		<input type="hidden" name="action" value="deleteAddress">
+		<input type="hidden" name="UID" value="acaeb992d126c0d555b5a3021295ad8d">
+		<input type="hidden" name="deletemail" value="">
+		<input type="hidden" name="csrf_token_check" value="83be7899137cd99791fac0f758f2223e">
+
+
+		<div id="area-myaddrlist">
+			<!-- [OK] -->
+
+		
+	<div>
+		<input type="search" onenter="return false;" name="addrlist_q" id="addrlist-search-basic" placeholder="自分のアドレスを検索" onchange="goAddrlistPageing('&addrlist_q='+encodeURIComponent(this.value));" value="" />
+	</div>
+		
+			<input type="checkbox" name="0c6ac953758bba3d7887a33b3bc7b307" id="area_mailaddr_0c6ac953758bba3d7887a33b3bc7b307" class="custom" />
+		<label for="area_mailaddr_0c6ac953758bba3d7887a33b3bc7b307">rife661@merry.pink</label>
+			<input type="checkbox" name="88d267b6c0e3a85ca2a3c508bb55130e" id="area_mailaddr_88d267b6c0e3a85ca2a3c508bb55130e" class="custom" />
+		<label for="area_mailaddr_88d267b6c0e3a85ca2a3c508bb55130e">zekigefe@fuwamofu.com</label>
+			<input type="checkbox" name="d982089a78861bcda4ff3fdd3565a4d3" id="area_mailaddr_d982089a78861bcda4ff3fdd3565a4d3" class="custom" />
+		<label for="area_mailaddr_d982089a78861bcda4ff3fdd3565a4d3">nupo878@svk.jp</label>
+			<input type="checkbox" name="430e0426bddfbf2a0c2f7c6ddfd63cc9" id="area_mailaddr_430e0426bddfbf2a0c2f7c6ddfd63cc9" class="custom" />
+		<label for="area_mailaddr_430e0426bddfbf2a0c2f7c6ddfd63cc9">kanenyute@cream.pink</label>
+			<input type="checkbox" name="3f46071f6e66d003ab64e10d2af80269" id="area_mailaddr_3f46071f6e66d003ab64e10d2af80269" class="custom" />
+		<label for="area_mailaddr_3f46071f6e66d003ab64e10d2af80269">hotehi165@via.tokyo.jp</label>
+			<input type="checkbox" name="e29ef6c334392435e451b1ccf9c5f8ca" id="area_mailaddr_e29ef6c334392435e451b1ccf9c5f8ca" class="custom" />
+		<label for="area_mailaddr_e29ef6c334392435e451b1ccf9c5f8ca">seroka@ruru.be</label>
+			<input type="checkbox" name="8b39b8a934d4f118ffbcccca68354f88" id="area_mailaddr_8b39b8a934d4f118ffbcccca68354f88" class="custom" />
+		<label for="area_mailaddr_8b39b8a934d4f118ffbcccca68354f88">zekyaso@kpost.be</label>
+			<input type="checkbox" name="f407a9c46e0ee7e6ed3d07bfe2176d53" id="area_mailaddr_f407a9c46e0ee7e6ed3d07bfe2176d53" class="custom" />
+		<label for="area_mailaddr_f407a9c46e0ee7e6ed3d07bfe2176d53">hanyazosa@fuwamofu.com</label>
+			<input type="checkbox" name="43b81f1408a2b16eeed6960058be223e" id="area_mailaddr_43b81f1408a2b16eeed6960058be223e" class="custom" />
+		<label for="area_mailaddr_43b81f1408a2b16eeed6960058be223e">baminogu@ahk.jp</label>
+			<input type="checkbox" name="803a6218d0f76481909a9beb179783cc" id="area_mailaddr_803a6218d0f76481909a9beb179783cc" class="custom" />
+		<label for="area_mailaddr_803a6218d0f76481909a9beb179783cc">nyanyufi441@usako.net</label>
+			<input type="checkbox" name="fcdc59192a4b04127d87347d0c2f53d8" id="area_mailaddr_fcdc59192a4b04127d87347d0c2f53d8" class="custom" />
+		<label for="area_mailaddr_fcdc59192a4b04127d87347d0c2f53d8">pukofira@merry.pink</label>
+			<input type="checkbox" name="8e256067581e382a204b745a4b0db862" id="area_mailaddr_8e256067581e382a204b745a4b0db862" class="custom" />
+		<label for="area_mailaddr_8e256067581e382a204b745a4b0db862">fipe975@svk.jp</label>
+			<input type="checkbox" name="a970c909d1f50090af77178e3b3e3c15" id="area_mailaddr_a970c909d1f50090af77178e3b3e3c15" class="custom" />
+		<label for="area_mailaddr_a970c909d1f50090af77178e3b3e3c15">zoru83@choco.la</label>
+			<input type="checkbox" name="0d2f4c5a484072610d27908f024ffcb1" id="area_mailaddr_0d2f4c5a484072610d27908f024ffcb1" class="custom" />
+		<label for="area_mailaddr_0d2f4c5a484072610d27908f024ffcb1">daki230@f5.si</label>
+			<input type="checkbox" name="415ce49393e766c95446b93c3cb2c05f" id="area_mailaddr_415ce49393e766c95446b93c3cb2c05f" class="custom" />
+		<label for="area_mailaddr_415ce49393e766c95446b93c3cb2c05f">risikaga@wanko.be</label>
+			<input type="checkbox" name="fd27d440a41ae49553a3c6dd04bce022" id="area_mailaddr_fd27d440a41ae49553a3c6dd04bce022" class="custom" />
+		<label for="area_mailaddr_fd27d440a41ae49553a3c6dd04bce022">bura672@via.tokyo.jp</label>
+			<input type="checkbox" name="5ee78d50e8c29481a2cda8316050c1a9" id="area_mailaddr_5ee78d50e8c29481a2cda8316050c1a9" class="custom" />
+		<label for="area_mailaddr_5ee78d50e8c29481a2cda8316050c1a9">kegyo624@neko2.net</label>
+			<input type="checkbox" name="53db7e3f8bb9c234f476ac18a05d6237" id="area_mailaddr_53db7e3f8bb9c234f476ac18a05d6237" class="custom" />
+		<label for="area_mailaddr_53db7e3f8bb9c234f476ac18a05d6237">bebana409@svk.jp</label>
+			<input type="checkbox" name="039486efddb93c1b5597e39585ace8f8" id="area_mailaddr_039486efddb93c1b5597e39585ace8f8" class="custom" />
+		<label for="area_mailaddr_039486efddb93c1b5597e39585ace8f8">tanetuko@ichigo.me</label>
+			<input type="checkbox" name="11d5547769169d42caf281039e38c0d3" id="area_mailaddr_11d5547769169d42caf281039e38c0d3" class="custom" />
+		<label for="area_mailaddr_11d5547769169d42caf281039e38c0d3">radasapa@cream.pink</label>
+			<input type="checkbox" name="654d2b0b65b339d2e136bca6f066222f" id="area_mailaddr_654d2b0b65b339d2e136bca6f066222f" class="custom" />
+		<label for="area_mailaddr_654d2b0b65b339d2e136bca6f066222f">pimabyoda@usako.net</label>
+			<input type="checkbox" name="1d435023237d3b3a30adf2cc24cf4d41" id="area_mailaddr_1d435023237d3b3a30adf2cc24cf4d41" class="custom" />
+		<label for="area_mailaddr_1d435023237d3b3a30adf2cc24cf4d41">nyofegyu668@usako.net</label>
+			<input type="checkbox" name="c517c16b4e0a4c16a596c7d3c1efbaa8" id="area_mailaddr_c517c16b4e0a4c16a596c7d3c1efbaa8" class="custom" />
+		<label for="area_mailaddr_c517c16b4e0a4c16a596c7d3c1efbaa8">bobitepo@via.tokyo.jp</label>
+			<input type="checkbox" name="b093381234fed9c15207647a299235dd" id="area_mailaddr_b093381234fed9c15207647a299235dd" class="custom" />
+		<label for="area_mailaddr_b093381234fed9c15207647a299235dd">feba422@svk.jp</label>
+			<input type="checkbox" name="2d7875b9a0f3035f361dcf2a022e166d" id="area_mailaddr_2d7875b9a0f3035f361dcf2a022e166d" class="custom" />
+		<label for="area_mailaddr_2d7875b9a0f3035f361dcf2a022e166d">tigyatu@mbox.re</label>
+			<input type="checkbox" name="8fbf0bc42545da2b15d4866441f47da9" id="area_mailaddr_8fbf0bc42545da2b15d4866441f47da9" class="custom" />
+		<label for="area_mailaddr_8fbf0bc42545da2b15d4866441f47da9">gyumyune715@f5.si</label>
+			<input type="checkbox" name="ef1920e33ceb3cb765d4e088582095aa" id="area_mailaddr_ef1920e33ceb3cb765d4e088582095aa" class="custom" />
+		<label for="area_mailaddr_ef1920e33ceb3cb765d4e088582095aa">pakazokyu@ahk.jp</label>
+			<input type="checkbox" name="b7aaec997f98d451e93a0257f2fe5e71" id="area_mailaddr_b7aaec997f98d451e93a0257f2fe5e71" class="custom" />
+		<label for="area_mailaddr_b7aaec997f98d451e93a0257f2fe5e71">tuyaso734@ahk.jp</label>
+			<input type="checkbox" name="a90dddab5db6e41afd370b6896c40c7d" id="area_mailaddr_a90dddab5db6e41afd370b6896c40c7d" class="custom" />
+		<label for="area_mailaddr_a90dddab5db6e41afd370b6896c40c7d">yufi651@ahk.jp</label>
+			<input type="checkbox" name="40dfe04a189946405b719ac359b1f0a5" id="area_mailaddr_40dfe04a189946405b719ac359b1f0a5" class="custom" />
+		<label for="area_mailaddr_40dfe04a189946405b719ac359b1f0a5">myanyazi@kpost.be</label>
+			<input type="checkbox" name="d8b4aed9b01374d1c8474514384bb528" id="area_mailaddr_d8b4aed9b01374d1c8474514384bb528" class="custom" />
+		<label for="area_mailaddr_d8b4aed9b01374d1c8474514384bb528">hukyakaba@f5.si</label>
+			<input type="checkbox" name="c95e157bbbd760569020f7d1321ed2ae" id="area_mailaddr_c95e157bbbd760569020f7d1321ed2ae" class="custom" />
+		<label for="area_mailaddr_c95e157bbbd760569020f7d1321ed2ae">barya955@eay.jp</label>
+			<input type="checkbox" name="1aff4ef8b25a1c72a1c0773774724e73" id="area_mailaddr_1aff4ef8b25a1c72a1c0773774724e73" class="custom" />
+		<label for="area_mailaddr_1aff4ef8b25a1c72a1c0773774724e73">pyomufa@macr2.com</label>
+			<input type="checkbox" name="03b5aee56005ec9173617d44fbe6f391" id="area_mailaddr_03b5aee56005ec9173617d44fbe6f391" class="custom" />
+		<label for="area_mailaddr_03b5aee56005ec9173617d44fbe6f391">higyobya988@eay.jp</label>
+			<input type="checkbox" name="d67915ac16da5313e41f077c7a0688e1" id="area_mailaddr_d67915ac16da5313e41f077c7a0688e1" class="custom" />
+		<label for="area_mailaddr_d67915ac16da5313e41f077c7a0688e1">maryo651@mofu.be</label>
+			<input type="checkbox" name="3566b6163e672f32691b835d42935600" id="area_mailaddr_3566b6163e672f32691b835d42935600" class="custom" />
+		<label for="area_mailaddr_3566b6163e672f32691b835d42935600">firikake@wanko.be</label>
+			<input type="checkbox" name="3adeb2672052e6010f56b6cf3e0cc13f" id="area_mailaddr_3adeb2672052e6010f56b6cf3e0cc13f" class="custom" />
+		<label for="area_mailaddr_3adeb2672052e6010f56b6cf3e0cc13f">gyugyuma202@usako.net</label>
+			<input type="checkbox" name="2ee1eb9e560ae79d148fecec99a37275" id="area_mailaddr_2ee1eb9e560ae79d148fecec99a37275" class="custom" />
+		<label for="area_mailaddr_2ee1eb9e560ae79d148fecec99a37275">gyuhabya228@macr2.com</label>
+			<input type="checkbox" name="f91d027503caba879c6e3c7fb1b34a29" id="area_mailaddr_f91d027503caba879c6e3c7fb1b34a29" class="custom" />
+		<label for="area_mailaddr_f91d027503caba879c6e3c7fb1b34a29">minimyado@usako.net</label>
+			<input type="checkbox" name="132e145dd5f84e45997553a4daaab13e" id="area_mailaddr_132e145dd5f84e45997553a4daaab13e" class="custom" />
+		<label for="area_mailaddr_132e145dd5f84e45997553a4daaab13e">bopo573@merry.pink</label>
+			<input type="checkbox" name="9dc554a8e578ccc232ac00e3e93b7c75" id="area_mailaddr_9dc554a8e578ccc232ac00e3e93b7c75" class="custom" />
+		<label for="area_mailaddr_9dc554a8e578ccc232ac00e3e93b7c75">nahokyaryu@neko2.net</label>
+			<input type="checkbox" name="f8b16b298e84eefd3c60e2828c9b1be2" id="area_mailaddr_f8b16b298e84eefd3c60e2828c9b1be2" class="custom" />
+		<label for="area_mailaddr_f8b16b298e84eefd3c60e2828c9b1be2">muryatuni@f5.si</label>
+			<input type="checkbox" name="2981c71eae6b101764b045db0825a061" id="area_mailaddr_2981c71eae6b101764b045db0825a061" class="custom" />
+		<label for="area_mailaddr_2981c71eae6b101764b045db0825a061">fifaze143@usako.net</label>
+			<input type="checkbox" name="bd72320d7c05e82fca4afd3653f9547f" id="area_mailaddr_bd72320d7c05e82fca4afd3653f9547f" class="custom" />
+		<label for="area_mailaddr_bd72320d7c05e82fca4afd3653f9547f">fiba225@ichigo.me</label>
+			<input type="checkbox" name="b0cdd7e37f7501586a5244c30a54ea98" id="area_mailaddr_b0cdd7e37f7501586a5244c30a54ea98" class="custom" />
+		<label for="area_mailaddr_b0cdd7e37f7501586a5244c30a54ea98">fidope@svk.jp</label>
+			<input type="checkbox" name="a69533a53f3c4bda5c0ac3628f15f73a" id="area_mailaddr_a69533a53f3c4bda5c0ac3628f15f73a" class="custom" />
+		<label for="area_mailaddr_a69533a53f3c4bda5c0ac3628f15f73a">fizato509@neko2.net</label>
+			<input type="checkbox" name="d1764271731ebf6af42c8e7e79ff6c38" id="area_mailaddr_d1764271731ebf6af42c8e7e79ff6c38" class="custom" />
+		<label for="area_mailaddr_d1764271731ebf6af42c8e7e79ff6c38">suhofe@ichigo.me</label>
+			<input type="checkbox" name="663860ddb7c90e79ca1544f51baf7384" id="area_mailaddr_663860ddb7c90e79ca1544f51baf7384" class="custom" />
+		<label for="area_mailaddr_663860ddb7c90e79ca1544f51baf7384">detaketu@choco.la</label>
+			<input type="checkbox" name="423a41515ff400471454a2393636ea35" id="area_mailaddr_423a41515ff400471454a2393636ea35" class="custom" />
+		<label for="area_mailaddr_423a41515ff400471454a2393636ea35">gapyo143@ahk.jp</label>
+			<input type="checkbox" name="a0782b70d6e0a792ee8bcb9c707ee536" id="area_mailaddr_a0782b70d6e0a792ee8bcb9c707ee536" class="custom" />
+		<label for="area_mailaddr_a0782b70d6e0a792ee8bcb9c707ee536">ginyomyo423@cream.pink</label>
+		
+		</div>
+				
+		<script>
+			function goAddrlistPageing(_param) {
+				$.ajax({
+				    url: "new._addrlist.php",
+				    type: "GET",
+				    data: "&keyname=area_mailaddr_checkbox&keyvalue=&t="+((new Date()).getTime())+""+_param,
+				    timeout: 6000,
+				    cache: false
+				}).done(function(data, status, xhr) {
+					if (data.indexOf("[OK]") != -1) {
+						$("#area-myaddrlist").html(data).trigger( "create" );
+					} else {
+						alert("システムエラーが発生しました。もう一度お試しください。");
+					}
+				}).fail(function(xhr, status, error) {
+					alert("操作に失敗しました。インターネット接続が安定している場所で再度お試しください。");
+				});
+			}
+		</script>
+
+		<script>
+		function sendDeleteAddress(_deletemail) {
+			var _msg = 'チェックボックスをオンにしたアドレスと、そのアドレスで送受信したメールをすべて削除してもよろしいですか？';
+			if (_deletemail != '1') {
+				_msg = 'チェックボックスをオンにしたアドレスをすべて削除してもよろしいですか？そのアドレスで送受信したメールは残ります。';
+			}
+			
+			/*
+			if (confirm(_msg)){
+				form_deleteAddress.deletemail.value = ""+_deletemail;
+				submitcheck = true;
+				form_deleteAddress.submit();
+			}
+			*/
+			
+	    	openConfirmDialog(
+	    		""+_msg,
+	    		
+	    		function(){
+					form_deleteAddress.deletemail.value = ""+_deletemail;
+					submitcheck = true;
+					form_deleteAddress.submit();
+				}, 
+	    	
+		    	function(){
+			    	
+		  	 	}
+		  	 );
+		}
+		var submitcheck = false;
+		function checkSendDeleteAddress() {
+			if (!submitcheck) return false;
+			return true;
+		}
+		</script>
+		<br>
+		
+		<div><input type="button" onclick="sendDeleteAddress('1');" value="アドレスとメールを削除" data-iconpos="right" data-icon="arrow-r"></div>
+		<div><input type="button" onclick="sendDeleteAddress('0');" value="アドレスのみ削除" data-iconpos="right" data-icon="arrow-r"></div>
+			
+		</form>
+		
+	</div>
+		
+	
+
+	
+		<div id="area-confirm-dialog" data-role="popup" data-overlay-theme="b">
+				
+			<div  style="padding:10px;">
+			
+				<div class="normal">
+					<div id="area-confirm-dialog-data" style="padding:10px;width:600px;"></div><br>
+					
+					<TABLE border="0" width="100%" cellpadding="0" cellspacing="0">
+					  <TBODY>
+					    <TR>
+					      <TD width="45%"><input type="button" id="area-confirm-dialog-button-ok" value="はい" onclick="okConfirmDialog();" data-iconpos="left" data-icon="check" data-shadow="false"></TD>
+					      <TD width="10%">&nbsp;</TD>
+					      <TD width="45%"><input type="button" id="area-confirm-dialog-button-cancel" value="いいえ" onclick="cancelConfirmDialog();" data-iconpos="right" data-icon="delete" data-shadow="false"></TD>
+					    </TR>
+					  </TBODY>
+					</TABLE>
+
+				</div>
+			
+			</div>
+		</div>
+
+		<div id="area-alert-dialog" data-role="popup" data-overlay-theme="b">
+				
+			<div style="padding:10px;">
+			
+				<div class="normal">
+					<div id="area-alert-dialog-data" style="padding:10px;width:600px;"></div><br>
+					
+					<TABLE id="master-alert-dialog-button-ok" border="0" width="100%" cellpadding="0" cellspacing="0">
+					  <TBODY>
+					    <TR>
+					      <TD width="45%"><input type="button" id="area-alert-dialog-button-ok" value="OK" onclick="okAlertDialog();" data-iconpos="left" data-icon="check" data-shadow="false"></TD>
+					      <TD width="10%">&nbsp;</TD>
+					      <TD width="45%">&nbsp;</TD>
+					    </TR>
+					  </TBODY>
+					</TABLE>
+
+				</div>
+			
+			</div>
+		</div>
+				
+		<script>
+		var confirmdialog_ok_lastcallback = false;
+		var confirmdialog_cancel_lastcallback = false;
+		function openConfirmDialog(_data, _callback_ok, _callback_cancel) {
+							openConfirmDialogHTML(_data, _callback_ok, _callback_cancel);
+					}
+		
+		function openConfirmDialogHTML(_data, _callback_ok, _callback_cancel) {
+			confirmdialog_ok_lastcallback = _callback_ok;
+			confirmdialog_cancel_lastcallback = _callback_cancel;
+			
+			$("#area-confirm-dialog-data").html(""+_data).trigger( "create" );
+			
+			$("#area-confirm-dialog").popup("close");
+			$("#area-confirm-dialog").popup("open");
+		}
+		
+			function okConfirmDialog() {
+				$("#area-confirm-dialog").popup("close");
+				setTimeout(confirmdialog_ok_lastcallback, 10);
+			}
+
+			function cancelConfirmDialog() {
+				$("#area-confirm-dialog").popup("close");
+				setTimeout(confirmdialog_cancel_lastcallback, 10);
+			}
+		
+		var alertdialog_ok_lastcallback = false;
+		function openAlertDialog(_data, _callback_ok) {
+			alertdialog_ok_lastcallback = _callback_ok;
+			
+			$("#area-alert-dialog-data").html(""+_data).trigger( "create" );
+			
+			$("#area-alert-dialog").popup("close");
+			$("#area-alert-dialog").popup("open");
+			
+			if (alertdialog_ok_lastcallback) {
+				$("#master-alert-dialog-button-ok").css({"display": "block"});
+			} else {
+				$("#master-alert-dialog-button-ok").css({"display": "none"});
+			}
+		}
+
+			function okAlertDialog() {
+				$("#area-alert-dialog").popup("close");
+				setTimeout(alertdialog_ok_lastcallback, 10);
+			}
+			
+			function closeAlertDialog() {
+				$("#area-alert-dialog").popup("close");
+			}
+			
+			function hideAlertDialogButtonOnce() {
+				$("#master-alert-dialog-button-ok").css({"display": "none"});
+			}
+
+		</script>
+
+<script>
+function clipcopyjs(_message) {
+	var cutTextarea = document.getElementById('clipboard_pass');
+	cutTextarea.value = ""+_message;
+	cutTextarea.style.display = "block";
+	cutTextarea.select();
+
+	try {  
+		var successful = document.execCommand('copy');  
+		//var msg = successful ? 'successful' : 'unsuccessful';
+		cutTextarea.style.display = "none";
+	} catch(err) {  
+	}
+}
+</script>
+<input id="clipboard_pass" type="text" value="" style="display:none;" data-role="none">
+
+<script>
+
+var SaveDataKeep_Status = false;
+function FlexCall(_data) {
+	console.log(""+_data);
+	var _ent = parseValue(_data);
+	if (_ent["action"] == "changeUID") {
+		location.href="index.php?action=changeUID&new_UID="+_ent["new_UID"];
+	} else if (_ent["action"] == "updateFilter") {
+		cookie.set("cookie_"+_ent["filter_name"], ""+decodeURIComponent(_ent["filter_value"]));
+		//location.reload();
+		query_data[""+_ent["filter_name"]] = ""+decodeURIComponent(_ent["filter_value"]);
+		viewMail("&"+GetQuery("action,page"));
+		//location.href="/addrdelete.php?action=updateFilter&filter_name="+encodeURIComponent(_ent["filter_name"])+"&filter_value="+encodeURIComponent(_ent["filter_value"]);
+	} else if (_ent["action"] == "clearFilter") {
+		cookie.set("cookie_filter_mailaddr", "");
+		cookie.set("cookie_filter_mailtype", "");
+		cookie.set("cookie_filter_mailfilter", "");
+		
+		query_data["filter_mailaddr"] = "";
+		query_data["filter_mailtype"] = "";
+		query_data["filter_mailfilter"] = "";
+		
+		viewMail("&"+GetQuery("action,page"));
+	} else if (_ent["action"] == "SaveDataKeep") {
+		if (_ent["mode"] == "on") {
+			SaveDataKeep_Status = true;
+		} else {
+			SaveDataKeep_Status = false;
+		}
+	} else if (_ent["action"] == "clipboardCopy") {
+		clipcopyjs(""+decodeURIComponent(_ent["text"]));
+	} else {
+		//alert(""+_data);
+	}
+}
+function ActionWinOpen(_url) {
+	if (_url.indexOf("mailto:") != -1) {
+		var _tmp = _url.split("mailto:");
+		window.open("https://m.kuku.lu/new.php?sendmail_to="+escape(_tmp[1]));
+	} else {
+		window.open(_url);
+	}
+}
+
+function viewQRCode(_addr) {
+	openAlertDialog('<img id="view_qrcode" src="//kukulu.erinn.biz/extlib/qr_img/php/qr_img.php?d='+_addr+'&s=5">', function(){});
+	//ActionWinOpen('https://m.kuku.lu/smphone.app.viewqrcode.php?address='+_addr+'&s=5');
+}
+
+function parseValue( src ) {
+	var _result = new Array();
+	var _src = src.split(";");
+	for (var i = 0; i<_src.length; i++) { 
+		var _ent = _src[i].split("=");
+		_result[""+_ent[0]] = ""+_ent[1];
+	}
+	return _result;
+}
+
+function parseURLParam( src ) {
+	var _result = new Array();
+	var _src = src.split("&");
+	for (var i = 0; i<_src.length; i++) { 
+		var _ent = _src[i].split("=");
+		_result[""+_ent[0]] = ""+_ent[1];
+	}
+	return _result;
+}
+
+function closePopupMenu(_target) {
+	$("#"+_target).popup( "close" );
+}
+
+function androidLoadSuccess() {
+}
+
+function viewClickButton(_tar) {
+	_tar.style.opacity = 0.7;
+	setTimeout(function(){_tar.style.opacity = 1;}, 200);
+}
+
+setTimeout(function(){
+	try {
+		cookie.set("cookie_timezone", ""+jstz.determine().name());
+	} catch(e) {
+		console.error("timezone detect: error: "+e);
+	}
+}, 500);
+</script>
+
+			<br>
+		<div style="padding:10px;border:1px solid #fbd551;background-color:#fef2c9;text-align:center;font-size:12px;padding-top:6px;color:gray;"><a href="https://chrome.google.com/webstore/detail/%E6%8D%A8%E3%81%A6%E3%83%A1%E3%82%A2%E3%83%89-for-chrome/ephdkjannbbaocplebkfnnnimphfpigj" target="_blank">新着メールお知らせ拡張機能はこちら (for Chrome)</a></div>
+	
+
+	<DIV style="text-align:center;font-size:12px;color:#666666;">
+		<br><br>
+
+		<div>
+								<b>日本語</a></b> 
+											| 
+											<a href="en.php">English</a></b> 
+											| 
+											<a href="ko.php">한국어</a></b> 
+											| 
+											<a href="cn.php">简体中文</a></b> 
+											| 
+											<a href="tw.php">繁體中文</a></b> 
+											| 
+											<a href="hi.php">हिंदी</a></b> 
+							</div>
+		<br>
+			
+		<div style="text-align:center;padding:5px;">
+			<a href="https://m.kuku.lu/rule.php" target="_blank">利用規約</a> | 
+			<a href="https://status.aquapal.net/" target="_blank">稼働状況</a> | 
+			<a href="https://m.kuku.lu/help.php">ヘルプとサポート</a>
+		</div>
+		<br>
+			
+		<div><a href="https://aquapal.net/" target="_blank"><img src="img/aquapal.png" border="0"></a></div>
+		<br>
+
+			
+		<!-- ここからIFRAMEを動かすとバグるので注意 -->
+		<IFRAME id="actionwin" name="actionwin" width="1" height="1" src="about:blank" frameborder="0" scrolling="NO"></IFRAME>
+		
+		&copy; 捨てメアド【メルアドぽいぽい】<BR>
+		Powered by <A href="https://twitter.com/kukusama" target="_blank">@kukusama</A>.<BR>
+		<br>
+		
+
+		<br><br><br><br>
+	</DIV>
+	<br><br>
+</div>
+</div>
+</div>
+<!--
+[internal processing times]
+
+@ APIProc: 0.0054 sec
+
+= total: 0.0054 sec
+-->
+
+</BODY>
+</HTML>

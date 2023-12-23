@@ -1,0 +1,59 @@
+//ローマ字小文字大文字、数字、記号から組み合わせ選ぶ
+//文字数、文字種は任意
+//気に入らなければリピート可能
+//最初はローマ字
+//
+//2018年11月8日
+//	EXE化しない方法に対応した
+//	作成後に文字数選ぶところに戻れるようにした
+//2019年6月3日
+//	使う記号選択可能、初期で記号以外を設定、文字数選択の候補追加、
+//	
+
+
+DIM kigo_str[] = "!", "<#DBL>", "#", "$", "%", "&", "'", "(", ")", "=", "~", "|", "`", "{", "+", "*", "}", "<", ">", "?", "_", "-", "^", "\", "@", "[", ";", ":", "]", ",", ".", "/"
+kigo_str_nr = "!<#DBL>#$%&'()=~|`{+*}<>?_-^\@[;:],./"
+
+pass_len = INPUT( "文字数", 10 )
+
+moji_vari = SLCTBOX( SLCT_CHK or SLCT_STR, 0, "文字種選択", "記号以外全て使用", "全て使用", "ローマ字小文字", "ローマ字大文字", "数字", "記号" )
+
+ifb moji_vari = "全て使用"
+	moji_vari = "ローマ字小文字 ローマ字大文字 数字 記号"
+elseif moji_vari = "記号以外全て使用"
+	moji_vari = "ローマ字小文字 ローマ字大文字 数字"
+endif
+
+for fa = 1 to 50
+	ra_str = ""
+
+	while true
+		rand = RANDOM(4)
+
+		SELECT rand
+		case 0
+			//ローマ字小文字ランダム
+			//10進法によるASCIIコードは97から122
+			if POS( "ローマ字小文字", moji_vari ) then ra_str = ra_str + CHR(97 + RANDOM(26))
+		case 1
+			//ローマ字大文字ランダム
+			//10進法によるASCIIコードは65から90
+			if POS( "ローマ字大文字", moji_vari ) then ra_str = ra_str + CHR(65 + RANDOM(26))
+		case 2
+			//数字ランダム
+			if POS( "数字", moji_vari ) then ra_str = ra_str + RANDOM(10)
+		case 3
+			//記号ランダム
+			if POS( "記号", moji_vari ) then ra_str = ra_str + kigo_str[RANDOM(32)]
+		SELEND
+
+		if LENGTH( ra_str ) >= pass_len then break
+	wend
+
+	//先頭をローマ字に
+	first_str = COPY( ra_str, 1, 1 )
+	if POS( first_str, "0123456789" ) OR POS( first_str, kigo_str_nr ) then CONTINUE
+
+	print ra_str
+
+next

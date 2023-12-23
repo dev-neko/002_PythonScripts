@@ -1,0 +1,11 @@
+soutxt = FOPEN( "source.txt", F_READ )
+souall = FGET( soutxt, F_ALLTEXT )
+
+for fa = 1 to 50
+	mail_1 = BETWEENSTR( souall, "label for=", "<", fa ) + "?"
+	//print mail_1
+	mail_2 = BETWEENSTR( mail_1, ">", "?" )
+	print mail_2
+next
+
+FCLOSE( soutxt )

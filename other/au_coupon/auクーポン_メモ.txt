@@ -1,0 +1,89 @@
+------------------------------
+
+メールサービス
+
+yahoo
+iroiro_touroku@usako.net
+trashmail_receive_001@yahoo.co.jp
+j50fBU1PvH
+
+yahoo POP3
+pop.mail.yahoo.co.jp
+trashmail_receive_001
+j50fBU1PvH
+
+trashmail
+trashmail_receive_001@yahoo.co.jp
+ahehae1919
+j50fBU1PvH
+
+捨てメアド
+とりあえずクーポン取得用
+676055518
+983394
+
+------------------------------
+
+全体の流れ
+
+ヤフメを利用してtrashmailでメルアドを100個くらい作成
+①
+ヤフメにあるメルの全件数を取得する
+	新着メルを検出するため
+トラメのメルアド一覧から1つメルアドを選ぶ
+CP対象のURLからwowid作成画面を開く
+トラメのメルアドをwowidに入力
+確認コードを送信ボタンを押す
+	xpathで
+取得したヤフメの件数よりも1多い数字 or 送信した時間以降に受信したメルでwowidからのメルを検出する
+	本文に入力したメルアドがあるかを確認
+	未受信の場合はエラーが出るのでtryでループさせる
+検出したメルの確認コードを抽出
+wowidサイトで確認コードの入力を行う
+必要事項を入力する
+submitする
+	xpathで
+①に戻る
+1週間程度でクーポン付与されるので確認
+
+------------------------------
+
+メルアド量産する方法
+トラメで
+	転送回数→1回
+	転送先→trashmail_receive_001@yahoo.co.jp
+	寿命→1年
+	CAPTCHAシステムを無効にする
+	アカウントの有効期限が切れたときに通知する→チェック外す
+にして
+	名前ランダム
+	ドメインは候補から選らぶ
+にすれば、1回auidの認証メール受信したらメルアドが消えるので、無料ユーザーの場合の25個までしか作れない制限を回避できる
+
+0box.eu
+contbay.com
+damnthespam.com
+kurzepost.de
+objectmail.com
+proxymail.eu
+rcpt.at
+trash-mail.at
+trashmail.at
+trashmail.com
+trashmail.io
+trashmail.me
+trashmail.net
+wegwerfmail.de
+wegwerfmail.net
+wegwerfmail.org
+
+------------------------------
+------------------------------
+
+メモ
+
+確認コードは同じメルアドを入力しても再送される
+
+確認コードを送信するボタンを押すxpathはdiv[4]だったりdiv[5]だったりする？
+	tryで進める？
+

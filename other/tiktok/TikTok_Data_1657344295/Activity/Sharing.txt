@@ -1,0 +1,16 @@
+Date: 2022-07-01 08:25:24
+Shared Content: video
+Link: https://www.tiktokv.com/share/video/7084186602578136322/
+Method: discord
+
+Date: 2022-04-12 10:23:34
+Shared Content: music
+Link: https://t.tiktok.com/i18n/share/music/6994559971341912065
+Method: more
+
+Date: 2022-04-12 10:23:34
+Shared Content: music
+Link: https://t.tiktok.com/i18n/share/music/6994559971341912065
+Method: chat_merge
+
+

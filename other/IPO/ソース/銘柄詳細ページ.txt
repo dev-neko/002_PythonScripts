@@ -1,0 +1,835 @@
+C:\Users\YUTANAO\PycharmProjects\PythonScripts\venv\Scripts\python.exe C:/Users/YUTANAO/PycharmProjects/PythonScripts/IPO/0001.py
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="ティアンドエス(4055)のIPO銘柄情報。2020/07/03新規承認、2020/08/07 マザーズへ上場予定。仮条件提示予定日は2020/07/17。その他、直近3期の財務データ、主幹事を初めとした引受証券会社、主要株主などティアンドエスのIPO情報が満載です。" name="description"/>
+<title>ティアンドエス(4055)：IPO（株式上場）情報 - 東京IPO</title>
+<link href="/top/css/tokyoipo.css?20170815" rel="stylesheet" type="text/css"/>
+<link href="/menu/common/css/base.css?20160204" rel="stylesheet" type="text/css"/>
+<script src="/top/js/dfp_head.js" type="text/javascript"></script>
+<link href="http://www.tokyoipo.com/sp/ipo/detail.php?id=pre&amp;seqid=2685" media="only screen and (max-width: 640px)" rel="alternate"/>
+<link href="http://www.tokyoipo.com/ipo/detail.php?id=pre&amp;seqid=2685" rel="canonical"/>
+<link href="http://www.tokyoipo.com/ipo/detail.php?id=pre&amp;seqid=2685" hreflang="ja" rel="alternate"/>
+<link href="http://www.tokyoipo.com/top/en/index.php?id=pre&amp;seqid=2685&amp;j_e=E" hreflang="en" rel="alternate"/>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TRKDX9" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRKDX9');</script>
+<!-- End Google Tag Manager -->
+<div class="div_center">
+<div class="smart_phone_here" id="smart_phone_here" onclick="location.href='http://www.tokyoipo.com/sp/ipo/detail.php?id=pre&amp;seqid=2685'">
+<span class="smart_phone_here_span">TOKYO IPO スマホ版はこちら</span>
+</div>
+<div class="div_gmenu" id="div_gmenu">
+<table>
+<tr>
+<td>
+<a href="/"><img alt="TOKYO IPO" class="div_gmenu_tbl_logo_img" src="/menu/common/image/logoTokyoIpo.gif"/></a><span class="div_gmenu_tbl_span">TOKYO IPOは新規上場企業の情報を個人投資家に提供します。</span>
+</td>
+<td>
+<form action="/google/ja/google_result.php" class="frm_searchbox" id="searchbox_003815319455718615582:1hxdkv6xh2q" name="formGoogleSearch">
+<input name="cx" type="hidden" value="003815319455718615582:1hxdkv6xh2q"/>
+<input name="cof" type="hidden" value="FORID:11"/>
+<input name="ie" type="hidden" value="EUC-JP"/>
+<input name="oe" type="hidden" value="EUC-JP"/>
+<input class="searchbox" name="q" placeholder="サイト内検索" type="text"/>
+<div class="off" onclick="document.formGoogleSearch.submit()">検索</div>
+</form>
+</td>
+<td>
+<div class="languagelink"><a href="/top/en/index.php?j_e=E">English</a></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="wrapper">
+<div id="head"></div>
+<div id="gnavi">
+<ul id="tjk_dropdownmenu">
+<li class="globalmenuhover gmenu_title_bg_not_seleced" id="gmenu100">
+<a href="/">トップ
+    </a>
+</li>
+<li class="globalmenuhover gmenu_title_bg_seleced" id="gmenu112">
+<a href="/ipo/schedule.php">IPO情報
+    </a>
+</li>
+<li class="globalmenuhover gmenu_title_bg_not_seleced" id="gmenu104">
+<a href="/event/formir.htm">セミナー情報
+    </a>
+</li>
+<li class="globalmenuhover gmenu_title_bg_not_seleced" id="gmenu106">
+<a href="/secure/ourservice08.htm">サービス情報
+    </a>
+</li>
+<li class="globalmenuhover globalmenuhoverlink gmenu_title_bg_not_seleced" id="gmenu101">
+<a href="http://post.tokyoipo.com/visitor/news/" target="_blank">開示アラート
+    </a>
+</li>
+<li class="globalmenuhover globalmenuhoverlink gmenu_title_bg_not_seleced" id="gmenu107">
+<a href="http://www.irstreet.com/jp/" target="_blank">IR Street
+    </a>
+</li>
+<li class="globalmenuhover gmenu_title_bg_not_seleced" id="gmenu113">
+<a href="/hikaku/">証券口座比較
+    </a>
+</li>
+</ul>
+</div>
+<div id="gnavi_sub">
+<ul id="tjk_dropdownmenu_sub">
+<li class="submenuli_pointer menulinohover"><a href="/ipo/schedule.php">IPOスケジュール</a></li>
+<li class="submenuli_pointer menulinohover"><a href="/ipo/pickup/index.html">IPOレポート</a></li>
+<li class="submenuli_pointer menulinohover"><a href="/blog/iponewslist.php">IPOニュース</a></li>
+<li class="submenuli_pointer menulinohover"><a href="/ipo/about.html">IPOとは</a></li>
+<li class="menulinohover"><span class="submenu_selected">IPO銘柄詳細</span></li>
+</ul>
+</div>
+</div>
+<table>
+<tr>
+<td>
+<div class="div_height10"></div>
+<div class="div_height10"></div>
+</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<script src="/top/js/spbanner.js" type="text/javascript"></script>
+<div class="div_center_contents">
+<table border="0" cellpadding="0" cellspacing="0" id="container" width="960">
+<tr><td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="container" width="650">
+<!--## メインコンテンツ ##-->
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td><div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-right:10px;" width="650">
+<tr>
+<td>
+<!--↓IPO企業一覧へ-->
+<div class="ipolist_here"><a href="/ipo/schedule.php">IPOスケジュール一覧はこちら<img alt="IPOスケジュール" src="/image/nextbtn.png" style="vertical-align:middle;margin-left:3px;"/></a></div>
+<!--↑IPO企業一覧へ--></td>
+</tr>
+<!--##  ##-->
+<tr>
+<td align="left">
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr class="ipodatatable_tr">
+<td colspan="6"><h1 class="h1_title_ipodata">ティアンドエス（株）</h1>
+<div class="ipodatatble_divchart">
+<a class="minkabubtn" href="http://minkabu.jp/stock/4055" target="_blank">?株価・チャート</a>?
+        <a class="kaijibtn" href="http://post.tokyoipo.com/visitor/search_by_brand/index.php?brand_code=4055" target="_blank">?開示情報</a>
+</div>
+</td>
+</tr>
+<tr>
+<th width="10%">コード</th>
+<th width="25%">業種</th>
+<th width="10%">市場</th>
+<th width="30%">主幹事</th>
+<th width="12%">承認日</th>
+<th width="13%">公開日</th>
+</tr>
+<tr>
+<td class="main_data aligncenter">4055</td>
+<td class="main_data aligncenter">情報・通信業</td>
+<td class="main_data aligncenter">マザ</td>
+<td class="main_data">いちよし証券 ? ? ?</td>
+<td class="main_data aligncenter">2020/07/03</td>
+<td class="main_data aligncenter">2020/08/07</td>
+</tr>
+<tr>
+<th colspan="6">【事業内容】</th>
+</tr>
+<tr>
+<td class="main_data" colspan="6">大手企業及び半導体工場向けシステム開発・運用保守・インフラ構築、AI関連のソフトウェア開発</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="7"><h2>IPO情報</h2></td>
+</tr>
+<tr>
+<th colspan="2">公開株数合計</th>
+<td class="main_data alignright">247,000</td>
+<th>売買単位</th>
+<td class="main_data alignright" colspan="2">100</td>
+</tr>
+<tr>
+<th colspan="2">公募株数</th>
+<td class="main_data alignright">170,000</td>
+<th>売出株数</th>
+<td class="main_data alignright" colspan="2">77,000</td>
+</tr>
+<tr>
+<th rowspan="2">発行済み株数</th>
+<th>公開日前⇒</th>
+<td class="main_data alignright" colspan="3">1,580,700.00</td>
+</tr>
+<tr>
+<th>公開日現在⇒</th>
+<td class="main_data alignright" colspan="3">1,750,700.00</td>
+</tr>
+<tr>
+<th rowspan="2">資本金</th>
+<th>公開日前⇒</th>
+<td class="main_data alignright" colspan="3">74,120,000円</td>
+</tr>
+<tr>
+<th>公開日現在⇒</th>
+<td class="main_data alignright" colspan="3">?</td>
+</tr>
+<tr>
+<th colspan="2">仮条件提示日</th>
+<td class="main_data" colspan="4">2020/07/17</td>
+</tr>
+<tr>
+<th colspan="2">ブックビルディング（開始）</th>
+<td class="main_data">2020/07/20</td>
+<th>ブックビルディング（終了）</th>
+<td class="main_data" colspan="2">2020/07/28</td>
+</tr>
+<tr>
+<th colspan="2">公募価格決定日</th>
+<td class="main_data" colspan="4">2020/07/29</td>
+</tr>
+<tr>
+<th colspan="2">申込期間（開始）</th>
+<td class="main_data">2020/07/30</td>
+<th>申込期間（終了）</th>
+<td class="main_data" colspan="2">2020/08/04</td>
+</tr>
+<tr>
+<th colspan="2">仮条件</th>
+<td class="main_data alignright">?</td>
+<th>仮条件のPER（前期ベース）</th>
+<td class="main_data alignright" colspan="2">?</td>
+</tr> <tr>
+<th colspan="2">公募価格</th>
+<td class="main_data alignright" colspan="4">?</td>
+</tr>
+<tr>
+<th colspan="2">公募価格のPER（前期ベース）</th>
+<td class="main_data alignright">?</td>
+<th>公募価格のPBR（前期ベース）</th>
+<td class="main_data alignright" colspan="2">?</td>
+</tr> <tr>
+<th colspan="2">調達資金使途</th>
+<td class="main_data" colspan="4">?</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="6"><h2>財務データ　「目論見書より」</h2></td>
+</tr>
+<tr align="right">
+<th colspan="6">単位：1千円</th>
+</tr>
+<tr align="center">
+<th width="16%">決算期</th>
+<th width="10%">?</th>
+<th width="20%">売上高</th>
+<th width="17%">経常利益</th>
+<th width="17%">当期利益</th>
+<th width="20%">純資産</th>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2017/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">1,905,323</td>
+<td align="right" class="main_data">148,321</td>
+<td align="right" class="main_data">109,951</td>
+<td align="right" class="main_data">114,535</td>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2018/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">2,133,537</td>
+<td align="right" class="main_data">202,444</td>
+<td align="right" class="main_data">146,470</td>
+<td align="right" class="main_data">271,126</td>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2019/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">2,297,249</td>
+<td align="right" class="main_data">269,850</td>
+<td align="right" class="main_data">184,007</td>
+<td align="right" class="main_data">455,133</td>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">今期中間<br/>
+  2020/05</td>
+<th align="center">連結</th>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">1,110,500</td>
+<td align="right" class="main_data">167,694</td>
+<td align="right" class="main_data">112,890</td>
+<td align="right" class="main_data">568,133</td>
+</tr>
+<tr align="right">
+<th width="16%">1株あたり</th>
+<th colspan="5">単位：1円</th>
+</tr>
+<tr align="center">
+<th width="16%">決算期</th>
+<th width="10%">?</th>
+<th width="20%">配当金</th>
+<th width="17%">当期利益</th>
+<th width="17%">純資産</th>
+<th width="20%">?</th>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2017/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data" rowspan="2">0.00</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">78.09</td>
+<td align="right" class="main_data">81.35</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2018/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data" rowspan="2">0.00</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">94.81</td>
+<td align="right" class="main_data">171.52</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">2019/11</td>
+<th align="center">連結</th>
+<td align="right" class="main_data" rowspan="2">0.00</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">116.41</td>
+<td align="right" class="main_data">287.93</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr align="center">
+<th width="16%">決算期</th>
+<th width="10%">?</th>
+<th width="20%">配当金</th>
+<th width="17%">当期利益</th>
+<th width="17%">純資産</th>
+<th width="20%">?</th>
+</tr>
+<tr>
+<td class="main_data aligncenter" rowspan="2">今期中間<br/>
+  2020/05</td>
+<th align="center">連結</th>
+<td align="right" class="main_data" rowspan="2">?</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">?</td>
+</tr>
+<tr>
+<th align="center">単体</th>
+<td align="right" class="main_data">71.42</td>
+<td align="right" class="main_data">-</td>
+<td align="right" class="main_data">?</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="6"><h2>コメント</h2></td>
+</tr>
+<tr>
+<td class="main_data">■オーバーアロットメントによる売出し30,000株
+■想定発行価格：2,650円
+■2020年4月14日付で1：1,100の株式分割を行ったが、2017年11月期の期首に当該株式分割が行われたと仮定し、各種1株当たり指標を算定。※ただし、2017年11月期の数値については未監査。</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="6"><h2>連結子会社</h2></td>
+</tr>
+<tr>
+<th align="center" width="60%">会社名</th>
+<th align="center" width="40%">住所</th>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="3"><h2>引受証券会社</h2></td>
+</tr>
+<tr>
+<th width="15%">割当</th>
+<th align="center" width="45%">引受証券会社名</th>
+<th align="center" width="40%">電話番号</th>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">いちよし証券</td>
+<td class="main_data">03-3555-6210</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">野村證券</td>
+<td class="main_data">03-3211-1811</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">SBI証券</td>
+<td class="main_data">03-5562-7210</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">極東証券</td>
+<td class="main_data">03-3667-9171</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">東洋証券</td>
+<td class="main_data">03-5117-1040</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">マネックス証券</td>
+<td class="main_data">03-4323-3800</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">岡三証券</td>
+<td class="main_data">03-3272-2211</td>
+</tr>
+<tr>
+<td align="right" class="main_data">0%</td>
+<td class="main_data">楽天証券</td>
+<td class="main_data">03-6406-2681</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="4"><h2>データ</h2></td>
+</tr>
+<tr>
+<th width="20%">会社設立年月日</th>
+<td class="main_data" colspan="3">2016年11月01日</td>
+</tr>
+<tr>
+<th>会社住所</th>
+<td class="main_data" colspan="3">220-0012　神奈川県横浜市西区みなとみらい3-6-3</td>
+</tr>
+<tr>
+<th>代表電話番号</th>
+<td class="main_data" colspan="3">045-226-1040</td>
+</tr>
+<tr>
+<th>社長名</th>
+<td class="main_data" colspan="3">武川義浩</td>
+</tr>
+<tr>
+<th>ホームページ</th>
+<td class="main_data" colspan="3"><a href="https://www.tecsvc.co.jp/" target="_blank">https://www.tecsvc.co.jp/</a></td>
+</tr>
+<tr>
+<th>監査法人</th>
+<td class="main_data" width="27%">双葉</td>
+<td class="main_data" width="27%">?</td>
+<td class="main_data" width="26%">?</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail" colspan="3"><h2>主要株主</h2></td>
+</tr>
+<tr>
+<th align="center" colspan="2">株主名</th>
+<th align="center" width="15%">比率</th>
+</tr>
+<tr>
+<td class="main_data" colspan="2">武川義浩</td>
+<td align="right" class="main_data" width="15%">39.87%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">渡辺照男</td>
+<td align="right" class="main_data" width="15%">14.30%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">日下理</td>
+<td align="right" class="main_data" width="15%">10.76%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">遠藤玲</td>
+<td align="right" class="main_data" width="15%">7.03%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">日下寛之</td>
+<td align="right" class="main_data" width="15%">6.39%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">ティアンドエス従業員持株会</td>
+<td align="right" class="main_data" width="15%">2.22%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">木村実</td>
+<td align="right" class="main_data" width="15%">2.15%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">福田悦生</td>
+<td align="right" class="main_data" width="15%">1.65%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">日下藍子</td>
+<td align="right" class="main_data" width="15%">1.46%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="2">渡辺貴美子　矢ノ下美樹　渡辺一樹　渡辺奈緒</td>
+<td align="right" class="main_data" width="15%">1.27%</td>
+</tr>
+<tr>
+<td class="main_data" colspan="3">※主要株主の持株比率は目論見書に基づき、潜在株式を含めた割合を記載しております。</td>
+</tr>
+<tr>
+<th>社員数</th>
+<td class="main_data" colspan="2">264人（2020年05月31日現在）</td>
+</tr>
+<tr>
+<th>代表者生年月日</th>
+<td class="main_data" colspan="2">1961年08月12日生まれ</td>
+</tr>
+<tr>
+<th colspan="3">代表者略歴</th>
+</tr>
+<tr>
+<th align="center" width="15%">年月</th>
+<th align="center" colspan="2">概要</th>
+</tr>
+<tr>
+<td class="main_data">1984年04月</td>
+<td class="main_data" colspan="2">(株)ティーエスディー入社</td>
+</tr>
+<tr>
+<td class="main_data">1993年07月</td>
+<td class="main_data" colspan="2">(株)アイネット入社</td>
+</tr>
+<tr>
+<td class="main_data">1996年11月</td>
+<td class="main_data" colspan="2">(株)テックジャパン入社</td>
+</tr>
+<tr>
+<td class="main_data">1997年02月</td>
+<td class="main_data" colspan="2">同社代表取締役社長就任</td>
+</tr>
+<tr>
+<td class="main_data">1998年04月</td>
+<td class="main_data" colspan="2">(有)ソフトワールド代表取締役社長就任</td>
+</tr>
+<tr>
+<td class="main_data">2003年10月</td>
+<td class="main_data" colspan="2">(株)フィックスターズ取締役就任</td>
+</tr>
+<tr>
+<td class="main_data">2016年11月</td>
+<td class="main_data" colspan="2">当社代表取締役社長就任</td>
+</tr>
+<tr>
+<td class="main_data">2020年01月</td>
+<td class="main_data" colspan="2">当社代表取締役執行役員社長就任(現任)</td>
+</tr>
+<tr>
+<th colspan="3">役員名</th>
+</tr>
+<tr>
+<th align="center" width="15%">役職名</th>
+<th align="center" colspan="2">氏名</th>
+</tr>
+<tr>
+<td class="main_data">取締役  執行役員システム事業本部長</td>
+<td class="main_data" colspan="2">福田悦生</td>
+</tr>
+<tr>
+<td class="main_data">取締役  執行役員業務本部長</td>
+<td class="main_data" colspan="2">木下洋</td>
+</tr>
+<tr>
+<td class="main_data">取締役  執行役員財務経理部長</td>
+<td class="main_data" colspan="2">遠藤玲</td>
+</tr>
+<tr>
+<td class="main_data">取締役(社外)</td>
+<td class="main_data" colspan="2">法眼健作</td>
+</tr>
+<tr>
+<td class="main_data">取締役(社外)</td>
+<td class="main_data" colspan="2">長谷川智彦</td>
+</tr>
+</table>
+<div class="div_height10"></div>
+<table border="0" cellpadding="0" cellspacing="0" class="ipodatatable" width="100%">
+<tr>
+<td class="h2_subtitle_ipodetail"><h2>メモ</h2></td>
+</tr>
+<tr>
+<td class="main_data">?</td>
+</tr>
+</table>
+<div class="div_height10">?</div>
+<table class="tbl_main_contents">
+<tr><td style="padding:8">
+<!-- /94446337/1206_tokyoipo_pc_contentsrectangle_left -->
+<div id="div-gpt-ad-1206contentrec_left" style="height:250px; width:300px;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.defineSlot('/94446337/1206_tokyoipo_pc_contentsrectangle_left', [300, 250], 'div-gpt-ad-1206contentrec_left').addService(googletag.pubads()); });
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1206contentrec_left'); });
+</script>
+</div>
+</td>
+<td style="padding:8">
+<!-- /94446337/1206_tokyoipo_pc_contentsrectangle_right -->
+<div id="div-gpt-ad-1206contentrec_right" style="height:250px; width:300px;">
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.defineSlot('/94446337/1206_tokyoipo_pc_contentsrectangle_right', [300, 250], 'div-gpt-ad-1206contentrec_right').addService(googletag.pubads()); });
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1206contentrec_right'); });
+</script>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td style="padding-left: 0px; padding-right:0px ;margin: 0px;"><div align="left" class="main_frame_width300">
+<div class="div_right_ipo_storategy">
+<a href="/rcs_ctl/acs_lg.php?cnt_code=tb_irs_6867" target="_blank">
+<img alt="IRSTREETへ移動" src="/image/6867-l.png"/>
+</a>
+</div>
+<div class="div_height15"></div>
+<div class="div_right_ipo_storategy">
+<a href="/rcs_ctl/acs_lg.php?cnt_code=tb_tactix" target="_blank">
+<img alt="TactiXへ移動" src="/image/tactic_tb.gif"/>
+</a>
+</div>
+<div class="div_height15"></div>
+<table class="rigth_banner_table_ad_noline">
+<tr>
+<td class="padding0">
+<div id="div-gpt-ad-1426564391522-0" style="min-height:250px;"><script type="text/javascript">googletag.cmd.push(function() { googletag.defineSlot('/94446337/1201_tokyoipo_pc_primerectangle', [[300, 250],  [300, 600]], 'div-gpt-ad-1426564391522-0').addService(googletag.pubads()); });googletag.cmd.push(function() { googletag.display('div-gpt-ad-1426564391522-0'); });</script></div>
+</td>
+</tr>
+</table>
+<div class="cursorpoint width_300" onclick="location.href='/mailmag_al/mailmagtop.htm'">
+<div class="div_height15"></div>
+<table class="rigth_banner_table">
+<tr>
+<td>
+<img alt="東京IPOメールマガジン" height="50px" src="/image/mail_thum.jpg" title="東京IPOメールマガジン" width="50px"/>
+</td>
+<td class="paddingleft5">
+<span class="rightmenu_hover">東京IPO　メールマガジン（無料）</span><br/>
+<span>IPO最新情報、セミナー・イベント情報などをタイムリーにお届けします。</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="div_height5"></div>
+<div class="cursorpoint rigth_banner_click" onclick="window.open('/rcs_ctl/acs_lg.php?cnt_code=tw_pc_top','_blank');">
+<table class="rigth_banner_table">
+<tr>
+<td>
+<img alt="Twitter 東京IPO公式アカウント" height="50px" src="/image/twitter_logo.png" title="Twitter 東京IPO公式アカウント" width="50px"/>
+</td>
+<td class="paddingleft5">
+<span class="rightmenu_hover">Twitter 東京IPO公式アカウント</span><br/>
+<span>IPO関連ニュースをTwitterでも掲載中。初値予想アンケートも実施中です！</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="div_height5"></div>
+<div class="cursorpoint rigth_banner_click" onclick="window.open('https://www.finantec-net.com/analyst-report/index.html','_blank');">
+<table class="rigth_banner_table">
+<tr>
+<td>
+<img alt="アナリスト注目銘柄" height="50px" src="/image/analyst.jpg" title="アナリスト注目銘柄" width="50px"/>
+</td>
+<td class="paddingleft5">
+<span class="rightmenu_hover">アナリスト注目銘柄</span><br/>
+<span>今後の躍進が期待される注目銘柄のアナリストレポートをご覧いただけます。</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="div_height5"></div>
+<div class="cursorpoint rigth_banner_click" onclick="location.href='/event/kformir.htm'">
+<table class="rigth_banner_table">
+<tr>
+<td>
+<img alt="個人投資家向けIRセミナー参加企業募集中" height="50px" src="/image/ir_semi.png" title="個人投資家向けIRセミナー参加企業募集中" width="50px"/>
+</td>
+<td class="paddingleft5">
+<span class="rightmenu_hover">IR担当者様へ</span><br/>
+<span>個人投資家向けIRセミナーを開催しませんか？開催希望企業募集中！</span>
+</td>
+</tr>
+</table>
+</div>
+<div class="div_height5"></div>
+<div class="cursorpoint rigth_banner_click" onclick="window.open('/rcs_ctl/acs_lg.php?cnt_code=blog_kasset','_blank');">
+<table class="rigth_banner_table">
+<tr>
+<td>
+<img alt="平野憲一氏の 「株のお話」ブログはこちら！" src="/image/b_kasset.jpg" title="平野憲一氏の 「株のお話」ブログはこちら！"/>
+</td>
+</tr>
+</table>
+</div>
+<div class="div_height5"></div>
+<div class="div_height5"></div>
+<img alt="IPOストラテジー" src="/image/ipo_strategy_title.png" title="IPOストラテジー">
+<a href="/manager/ja/index.php?j_e=Jp&amp;menu_type=sum&amp;menu=r_st_top">
+<img alt="IPOストラテジーログイン" onmouseout="this.src='/image/btn_login.png'" onmouseover="this.src='/image/btn_login_hover.png'" src="/image/btn_login.png"/>
+</a>
+<div class="div_height5"></div>
+<div class="div_height5"></div>
+<table class="rigth_banner_table_ad">
+<tr>
+<td class="padding0">
+<!--↓広告-->
+<div id="div-gpt-ad-1426564391522-1" style="min-height:250px;"><script type="text/javascript">googletag.cmd.push(function() { googletag.defineSlot('/94446337/1203_tokyoipo_pc_middlerectangle', [300, 250], 'div-gpt-ad-1426564391522-1').addService(googletag.pubads()); });googletag.cmd.push(function() { googletag.display('div-gpt-ad-1426564391522-1'); });</script></div>
+<!--↑広告-->
+</td>
+</tr>
+</table>
+</img></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+<!-- Footer -->
+</table>
+</div>
+<!-- BEGIN CONTENTS FOOTER -->
+<div class="div_fotter_top"></div>
+<div class="div_fotter">
+<table class="topfooter">
+<tr>
+<td>
+<table class="topfooter_contents">
+<tr>
+<td class="topfooter_contents_td">
+<a href="/top/ja/toi_input.php">
+              お問い合わせ
+            </a>
+</td>
+<td class="td_align_center">
+              |
+          </td>
+<td class="topfooter_contents_td">
+<a href="/index.php?id=01">
+              運営会社/<br/>特商法に基づく表記
+            </a>
+</td>
+<td class="td_align_center">
+              |
+          </td>
+<td class="topfooter_contents_td">
+<a href="/index.php?id=02">
+              免責
+            </a>
+</td>
+<td class="td_align_center">
+              |
+          </td>
+<td class="topfooter_contents_td">
+<a href="/index.php?id=ipocp">
+              プライバシーポリシー
+            </a>
+</td>
+<td class="td_align_center">
+              |
+          </td>
+<td class="topfooter_contents_td">
+<a href="/index.php?id=copyright">
+              著作権
+            </a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="topfooter_copy">
+?
+</td>
+</tr>
+<tr>
+<td class="topfooter_copy">
+Copyright (c) 1999-2020 Tokyo IPO. All rights reserved.
+</td>
+</tr>
+</table>
+</div>
+<!-- END CONTENTS FOOTER -->
+</div>
+</body>
+</html>
+
+
+プロセスは終了コード 0 で完了しました
