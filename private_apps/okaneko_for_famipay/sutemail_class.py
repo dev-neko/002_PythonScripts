@@ -73,10 +73,12 @@ class Sutemail_Class():
 		# url='https://insitesemea.decipherinc.com/survey/selfserve/53b/g022/2201106#$'
 		url='https://m.kuku.lu/index.php'
 		self.args.logger.debug(f'{url} トップページにアクセス')
+		# たまにここでタイムアウトすることあり
 		self.driver.get(url)
 		time.sleep(self.args.SLEEP_TIME)
 
 		# メールアドレスが2千個になってなくても表示されることがあるのでとりあえずOKクリックして続行する
+		# 10回繰り返しても先に進めなかったら本当に2千個作成したとして終了する
 		for count in range(10):
 			self.args.logger.debug(f'メールアドレスを自動作成')
 			self.driver.find_element_by_id('link_addMailAddrByAuto').click()

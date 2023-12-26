@@ -13,3 +13,6 @@ build
 /private_apps/auto_stock_trading/
 /work_apps/Twitterアカウント作成/
 /work_apps/けやきネット/
+
+# ExcelファイルはPCで別々に使用するため除外
+/private_apps/okaneko_for_famipay/登録データ.xlsx

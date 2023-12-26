@@ -78,6 +78,52 @@ class Okaneko_Class():
 		# オカネコのdriverを返して再度操作可能にする
 		return driver
 
+	def cre_ac_proxy_test01(self):
+		driver=self.cs.okaneko_driver()
+
+		# ウィンドウサイズを右半分にする
+		driver.set_window_size(654,664)
+		driver.set_window_position(633,0)
+
+		# PSOのショートカットでプロキシをランダムに選択する
+		# 0～プロキシの数-1の範囲で変更すれば割とランダムに切り替えられそう→プロキシ3個→randint(0,3-1)だと0,1,2→range(2)だと2回
+		pso_sc_count=random.randint(0,self.args.PROXY_QUANTITY-1)
+		print(f'pso_sc_count:{pso_sc_count}')
+		for _ in range(pso_sc_count):
+			pyautogui.hotkey('ctrl','shift','o')
+
+		# url='https://okane-kenko.jp/register/email?utm_source=famipay_app&utm_medium=banner&utm_campaign=20231114&redirect=%2Fpartner%2Ffamipay%2Fgettingstarted'
+		url='https://env.b4iine.net/'
+		self.args.logger.debug(f'{url} トップページにアクセス')
+		driver.get(url)
+		time.sleep(self.args.SLEEP_TIME)
+
+		time.sleep(3)
+		driver.quit()
+
+	def cre_ac_proxy_test02(self):
+		driver=self.cs.okaneko_driver_profile_extention_test01()
+
+		# ウィンドウサイズを右半分にする
+		driver.set_window_size(654,664)
+		driver.set_window_position(633,0)
+
+		# PSOのショートカットでプロキシをランダムに選択する
+		# 0～プロキシの数-1の範囲で変更すれば割とランダムに切り替えられそう→プロキシ3個→randint(0,3-1)だと0,1,2→range(2)だと2回
+		pso_sc_count=random.randint(0,self.args.PROXY_QUANTITY-1)
+		print(f'pso_sc_count:{pso_sc_count}')
+		for _ in range(pso_sc_count):
+			pyautogui.hotkey('ctrl','shift','o')
+
+		# url='https://okane-kenko.jp/register/email?utm_source=famipay_app&utm_medium=banner&utm_campaign=20231114&redirect=%2Fpartner%2Ffamipay%2Fgettingstarted'
+		url='https://env.b4iine.net/'
+		self.args.logger.debug(f'{url} トップページにアクセス')
+		driver.get(url)
+		time.sleep(self.args.SLEEP_TIME)
+
+		time.sleep(3)
+		driver.quit()
+
 	def cre_ac(self,cre_mailaddr,ac_data_dict):
 		driver=self.cs.okaneko_driver()
 
@@ -137,29 +183,6 @@ class Okaneko_Class():
 
 		# オカネコのdriverを返して再度操作可能にする
 		return driver
-
-	def cre_ac_proxy_test01(self):
-		driver=self.cs.okaneko_driver()
-
-		# ウィンドウサイズを右半分にする
-		driver.set_window_size(654,664)
-		driver.set_window_position(633,0)
-
-		# PSOのショートカットでプロキシをランダムに選択する
-		# 0～プロキシの数-1の範囲で変更すれば割とランダムに切り替えられそう→プロキシ3個→randint(0,3-1)だと0,1,2→range(2)だと2回
-		pso_sc_count=random.randint(0,self.args.PROXY_QUANTITY-1)
-		print(f'pso_sc_count:{pso_sc_count}')
-		for _ in range(pso_sc_count):
-			pyautogui.hotkey('ctrl','shift','o')
-
-		# url='https://okane-kenko.jp/register/email?utm_source=famipay_app&utm_medium=banner&utm_campaign=20231114&redirect=%2Fpartner%2Ffamipay%2Fgettingstarted'
-		url='https://env.b4iine.net/'
-		self.args.logger.debug(f'{url} トップページにアクセス')
-		driver.get(url)
-		time.sleep(self.args.SLEEP_TIME)
-
-		time.sleep(3)
-		driver.quit()
 
 	# 本登録リンクを開く
 	def formal_regist_bk01(self,driver,url):

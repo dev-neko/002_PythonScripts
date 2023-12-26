@@ -21,7 +21,10 @@ class Global_Variables():
 	DEBUG=True
 	# DEBUG=False
 
-	# メルぽいの、ID、PW
+	####################
+	# メルぽいの、ID、PW #
+	####################
+
 	# AC_ID_1='okaneko_001'
 	# AC_PW_1='202195'
 	# AC_ID_1='okaneko_002'
@@ -30,8 +33,16 @@ class Global_Variables():
 	# AC_PW_1='599882'
 	# AC_ID_1='okaneko_004'
 	# AC_PW_1='387595'
-	AC_ID_1='okaneko_005'
-	AC_PW_1='261095'
+	# AC_ID_1='okaneko_005'
+	# AC_PW_1='261095'
+
+	# テスト用
+	AC_ID_1='test_okaneko_001'
+	AC_PW_1='39639'
+
+	####################
+	# メルぽいの、ID、PW #
+	####################
 
 	# 手続き時のスリープ時間
 	SLEEP_TIME=1

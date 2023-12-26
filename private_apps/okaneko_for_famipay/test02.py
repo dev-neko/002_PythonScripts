@@ -31,13 +31,14 @@ class Global_Variables():
 	# 使用するプロキシの数
 	PROXY_QUANTITY=3
 
+
 # ------------------------------
 # 処理関数・クラス
 # ------------------------------
-def main(args):
+def main_test01(args):
 	try:
 		# インスタンス化
-		cs=custom_selenium.Custom_Selenium()
+		cs=custom_selenium.Custom_Selenium(args)
 		# adc=ac_data_class.Ac_Data_Class()
 		oc=okaneko_class.Okaneko_Class(args,cs)
 		# sc=sutemail_class.Sutemail_Class(args,cs)
@@ -58,9 +59,34 @@ def main(args):
 		args.logger.info(f'処理が正常に終了した')
 
 
+def main_test02(args):
+	try:
+		# インスタンス化
+		cs=custom_selenium.Custom_Selenium(args)
+		# adc=ac_data_class.Ac_Data_Class()
+		oc=okaneko_class.Okaneko_Class(args,cs)
+		# sc=sutemail_class.Sutemail_Class(args,cs)
+
+		for _ in range(10):
+			oc.cre_ac_proxy_test02()
+
+	except selenium.common.exceptions.TimeoutException:
+		args.logger.warning(f'タイムアウト')
+	except selenium.common.exceptions.NoSuchElementException as err:
+		args.logger.warning(f'見つからなかった要素\n{err}')
+	# ページ内容取得
+	# res_result=BeautifulSoup(driver.page_source,'html.parser').text
+	# self.logger.warning(f'要素があったはずのページ内容\n{res_result}')
+	except Exception as err:
+		args.logger.error(f'以下の予期しないエラーが発生\n{traceback.format_exc()}')
+	else:
+		args.logger.info(f'処理が正常に終了した')
+
+
 # ------------------------------
 # main
 # ------------------------------
 args=Global_Variables()
 
-main(args)
+# main_test01(args)
+main_test02(args)

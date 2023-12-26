@@ -3,7 +3,8 @@
 # ------------------------------
 # selenium系
 import random
-
+import selenium
+from selenium.common.exceptions import TimeoutException
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 # from seleniumwire import webdriver
@@ -202,9 +203,10 @@ class Custom_Selenium_bk01():
 
 
 class Custom_Selenium():
-	def __init__(self):
+	def __init__(self,args):
 		# chromedriver.exeのインストール先
 		self.CDM_INST=ChromeDriverManager().install()
+		self.args=args
 
 	def qsai_driver(self):
 		chrome_options=webdriver.ChromeOptions()
@@ -560,6 +562,45 @@ class Custom_Selenium():
 
 		return driver
 
+	def okaneko_driver_profile_extention_test01(self):
+		chrome_options=webdriver.ChromeOptions()
+		# アダプタエラー、自動テスト…、を非表示
+		chrome_options.add_experimental_option('detach',True)
+		chrome_options.add_experimental_option("excludeSwitches",['enable-automation','enable-logging'])
+		# chrome_options.add_argument('--headless')  #ヘッドレスモード
+		chrome_options.add_argument('--incognito')  #シークレットモード
+		chrome_options.add_argument('--disable-gpu')
+		chrome_options.add_argument('--disable-desktop-notifications')
+		# chrome_options.add_argument("--disable-extensions")
+		chrome_options.add_argument('--disable-dev-shm-usage')
+		# chrome_options.add_argument('--disable-application-cache')
+		chrome_options.add_argument('--no-sandbox')
+		chrome_options.add_argument('--ignore-certificate-errors')
+		chrome_options.page_load_strategy='none'
+		# 2021年12月30日追加
+		# chrome_options.add_argument('--allow-running-insecure-content')
+		# chrome_options.add_argument('--disable-web-security')
+		# chrome_options.add_argument('--lang=ja')
+		# chrome_options.add_argument('--blink-settings=imagesEnabled=false') #画像非表示
+
+		# インストールした拡張機能をシークレットモードで有効にするプロファイルを読み込む
+		# 新旧どちらでも対応できるようにtry
+		try:
+			chrome_options.add_argument(r'--user-data-dir=C:\Users\ISDYTK\AppData\Local\Google\Chrome\USER_OKANEKO')
+			self.args.logger.debug(f'ISDYTK のchromeプロファイルを使用')
+			driver=webdriver.Chrome(self.CDM_INST,options=chrome_options)
+		except selenium.common.exceptions.WebDriverException as err:
+			chrome_options.add_argument(r'--user-data-dir=C:\Users\YUTAKA\AppData\Local\Google\Chrome\USER_OKANEKO')
+			self.args.logger.debug(f'{err}ISDYTK のchromeプロファイルがないので、YUTAKA のchromeプロファイルを使用')
+			driver=webdriver.Chrome(self.CDM_INST,options=chrome_options)
+
+		# ページの読み込みで待機する秒数、これ以上経過すると例外発生
+		driver.set_page_load_timeout(60)
+		#要素が見つかるまで指定した時間まで待機
+		driver.implicitly_wait(60)
+
+		return driver
+
 	def okaneko_driver(self):
 		chrome_options=webdriver.ChromeOptions()
 		# アダプタエラー、自動テスト…、を非表示
@@ -593,3 +634,4 @@ class Custom_Selenium():
 		driver.implicitly_wait(60)
 
 		return driver
+
